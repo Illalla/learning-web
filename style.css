@@ -1,8 +1,8 @@
+li:hover {
+	background-color: cyan;
+}
+
 h1 {
 font-family: "Comic Sans MS", "Comic Sans", cursive;
 text-align: center;
-};
-
-li:hover {
-	color: cyan;
-};
+}
