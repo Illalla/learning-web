@@ -1,10 +1,10 @@
-var button = document.getElementById('prycizg');
-var input = document.getElementById('usrenter');
-var ul = document.querySelector('ul');
-var liall = document.querySelectorAll('li')
+let button = document.getElementById('prycizg');
+let input = document.getElementById('usrenter');
+let ul = document.querySelector('ul');
+let liall = document.querySelectorAll('li')
 
 function appendlist(){
-	var li = document.createElement('li');
+	let li = document.createElement('li');
 	li.appendChild(document.createTextNode(input.value));
 	ul.appendChild(li);
 	li.addEventListener('dblclick', function(){
